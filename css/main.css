@@ -1,0 +1,94 @@
+.main {
+	
+}
+.main h1 {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0px 0px 25px 0px;
+	text-align: left;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px 0px 10px 0px;
+}
+.block {
+	border-radius: 20px;
+	box-shadow: 6px 6px 8px rgb(85, 84, 84);
+	padding: 15px;
+	margin: 10px 0px 45px 0px;
+	color: whitesmoke;
+	
+}
+
+.background-color {
+	background-color: rgb(27, 138, 106);
+
+}
+.transparent {
+	background-color: rgba(24,181,164,0.4);
+	color: black;
+}
+
+.bg-repeat {
+	background: url('../img/bg_repeat.jpg') 0 0 repeat-x;
+}
+
+.some-img {
+	/* background: url('../img/header-bg2.jpg') center / cover no-repeat, */
+	background: url('../img/avatar_2.jpg') 50% 100% no-repeat, url('../img/header-bg2.jpg') center / cover no-repeat fixed;
+	padding: 15%;
+}
+.card {
+	/* отступы безопасности */
+	margin: 45px 0;
+	padding: 10px;
+	display: flex;
+	border-radius: 20px;
+	box-shadow: 6px 6px 8px rgb(85, 84, 84);
+	align-items: center;
+	/* градиент цвета фона */
+	background: rgb(27, 138, 106);
+	background: linear-gradient(90deg, rgba(27, 138, 106, 1) 2%, rgba(208, 208, 236, 0.6709843906787558) 22%, rgba(0, 255, 171, 1) 100%);
+}
+
+.card__image {
+	/* background-image: url(./foto.jpg); */
+	/* background-position: center; 50% */
+	/* background-size: cover; */
+	background: url(../img/foto.jpg) center / cover no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 6px 6px 8px rgb(85, 84, 84);
+	margin-right: 35px;
+}
+
+.card__info {
+	padding: 10px;
+	max-width: 750px;
+}
+
+.card__title {
+	margin-bottom: 10px;
+	border-bottom: 3px dotted rgb(1, 65, 65);
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.card__text {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.list__item {
+	background: url("../img/list.svg") 0 2px no-repeat;
+	padding: 0px 0px 0px 25px;
+	font-size: 18px;
+	min-height: 16px;
+	margin-bottom: 5px;
+}

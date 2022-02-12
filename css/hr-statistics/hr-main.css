@@ -1,0 +1,53 @@
+.main {
+}
+.main__container {
+}
+.article {
+}
+.article__container {
+	max-width: 810px !important;
+}
+.article__title {
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin: 0px 0px 92px 0px;
+}
+.article__image {
+	margin: 0px 0px 60px 0px;
+}
+.article__image-caption {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin: 0px 0px 24px 0px;
+}
+
+.article__text {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin: 0px 0px 24px 0px;
+}
+.article__quote {
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 26px 0px;
+	background: url("../../img/quote.png") 0 0 no-repeat, url("../../img/quote.png") 15px 0 no-repeat;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+.article__list {
+	margin: 0px 0px 24px 0px;
+}
+.article__list-item {
+	background: url("../../img/list.svg") 0 5px no-repeat;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	padding: 0px 0px 4px 32px;
+}

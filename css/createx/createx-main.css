@@ -1,0 +1,72 @@
+.main h1 {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0px 0px 25px 0px;
+	text-align: left;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin: 0px 0px 40px 0px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px 0px 10px 0px;
+}
+.main__container {
+
+}
+.title {
+}
+.card {
+	background: #ffffff;
+	border-radius: 20px;
+	box-shadow: 6px 6px 8px rgb(85, 84, 84);
+	padding: 2px 46px 59px 26px;
+	margin: 10px 0px 45px 0px;
+	max-width: 462px;
+}
+.card__info {
+}
+.card__subtitle {
+	margin: 0px 0px 8px 0px;
+}
+.card__title {
+}
+.list {
+}
+.list__item {
+	padding: 0px 0px 0px 38px;
+	margin: 0px 0px 12px 0px;
+	background: url("../../img/list.svg") 0 0 no-repeat;
+}
+.card__btn {
+	margin: 48px 0px 0px 0px;
+}
+.button {
+	display: inline-block;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	padding: 0 32px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 314%;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	margin: 10px 0px;
+}
+
+.button:hover {
+	box-shadow: 6px 6px 8px rgb(85, 84, 84);
+}
