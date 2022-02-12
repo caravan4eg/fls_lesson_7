@@ -13,7 +13,20 @@
 	font-size: 46px;
 	line-height: 130%;
 	color: #1e212c;
-	margin: 0px 0px 92px 0px;
+	margin: 0px 0px 26px 0px;
+}
+.subtitle__list {
+	display: flex;
+	align-items: center;
+}
+
+.subtitle__item {
+	background: url('/img/stroke.png') 0 5px no-repeat;
+	margin: 0px 25px 40px 0px;
+	padding: 0px 0px 0px 24px;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787a80;
 }
 .article__image {
 	margin: 0px 0px 60px 0px;
