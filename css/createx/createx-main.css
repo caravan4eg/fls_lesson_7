@@ -48,7 +48,7 @@ h3 {
 .list__item {
 	padding: 0px 0px 0px 38px;
 	margin: 0px 0px 12px 0px;
-	background: url("../../img/list.svg") 0 0 no-repeat;
+	background: url("../../img/list.svg") 0 5px no-repeat;
 	line-height: 1.5;
 }
 .card__btn {
